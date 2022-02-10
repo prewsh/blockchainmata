@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components"
+import Landing from "./components/Landing";
+import Navbar from "./components/nav/Navbar"
+import Classes from "./components/Classes"
+import Teachers from "./components/Teachers";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+
+const Container = styled.div`
+  height: 100vh;
+  ${'' /* overflow: hidden; */}
+  ${'' /* position: relative; */}
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Container >
+      <Navbar/>
+      <Landing/>
+      <Classes/>
+      <Teachers/>
+      <Features/>
+      <Footer/>
+    </Container>
   );
 }
 
