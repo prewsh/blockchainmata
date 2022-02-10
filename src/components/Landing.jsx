@@ -45,9 +45,12 @@ width: 100%;
 
     @media only screen and (max-width: 480px){
         width: 100%;
-        font-size: 50px;
         margin-bottom: 30px;
         text-align: center;
+
+        font-size: 36px;
+        line-height: 41px;
+        font-weight: 900;
         
     }
 `;
@@ -56,7 +59,7 @@ const Desc = styled.p `
 width: 100%;
 font-family: Montserrat;
 font-style: normal;
-font-weight: normal;
+font-weight: 900;
 font-size: 20px;
 line-height: 150%;
 color: #000000;
@@ -64,6 +67,10 @@ color: #000000;
     @media only screen and (max-width: 480px){
         width: 100%;
         text-align: justify;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
     }
 
 `;
@@ -121,11 +128,13 @@ export const Landing = () => {
     return (
         <Container>
             <Left>
-                <Title>Learn from the best</Title>
-                <Desc>Withever you want to, learn from the best at your 
-own time, convenience and speed.</Desc>
+                <Title>Everyone is a block on a blockchain.</Title>
+                <Desc>A community built to enlighten
+the student community about 
+the blockchain ecosystem and
+how to connect to this ecosystem.</Desc>
                 <Info>
-                    <Button>Sign Up</Button>
+                    <Button>Discord</Button>
                 </Info>
             </Left>
             <Right>

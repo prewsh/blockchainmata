@@ -108,7 +108,7 @@ const CardInner2 =styled.div`
 const Features = () => {
   return (
       <Container>
-        <Title  >Our Special Features</Title>
+        <Title  >Events</Title>
         
         <CardContainer>
 

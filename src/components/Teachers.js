@@ -165,8 +165,8 @@ const Teachers = () => {
   return (
       <Container>
 
-           <Title>Our Teachers</Title>
-           <SubTitle>Our teachers are professionals in each of their fields. They will take you on a journey sharing experience, data, ideas and help you to accomplish your learn goals.</SubTitle>
+           <Title>Meet the Team</Title>
+           <SubTitle>Our Team is a group of professional blockchain developers, traders and designers.</SubTitle>
 
 
            <CardContainer>

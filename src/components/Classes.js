@@ -85,7 +85,9 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 .textArea > h3{
-width: 150px;
+${'' /* width: 150px; */}
+
+text-align: center;
 height: 30px;
 
 margin: 0px auto;
@@ -140,8 +142,8 @@ const Image = styled.img`
 const Classes = () => {
   return (
       <Container>
-           <Title>Our Classes</Title>
-           <SubTitle>Our Classes are sets of short videos that allow you to learn in depth from our teachers.You learn the way you like and get to have your questions answered from time to time.</SubTitle>
+           <Title>What we offer?</Title>
+           <SubTitle></SubTitle>
 
         <CardContainer>
         <Card>
@@ -149,7 +151,7 @@ const Classes = () => {
             <Image src={image3} />
             </div>
             <div className='textArea'>
-                <h3>Online Fitness</h3>
+                <h3>Testnest Staking</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
 
                 <div className='readmore'><a href='/'>Read More</a></div>
@@ -161,7 +163,7 @@ const Classes = () => {
             <Image src={image3} />
             </div>
             <div className='textArea'>
-                <h3>Online Fitness</h3>
+                <h3>Online Learning</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
 
                 <div className='readmore'><a href='/'>Read More</a></div>
@@ -173,7 +175,7 @@ const Classes = () => {
             <Image src={image3} />
             </div>
             <div className='textArea'>
-                <h3>Online Fitness</h3>
+                <h3>Project Promotion</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
 
                 <div className='readmore'><a href='/'>Read More</a></div>

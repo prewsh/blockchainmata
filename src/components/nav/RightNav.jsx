@@ -35,31 +35,15 @@ const Ul = styled.ul`
   }
 `;
 
-const Button = styled.button`
-    width: 192px;
-    height: 53px;
-    border: 2px solid #FF820E;
-    border-radius: 20px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 150%;
-    /* identical to box height, or 25px */
-    background-color: transparent;
-
-
-    color: #FF820E; 
-`
 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>Home</li>
       <li>About Us</li>
-      <li>Contact Us</li>
-      <Button>Log In</Button>
+      <li>Team</li>
+      <li>Events</li>
     </Ul>
   )
 }
