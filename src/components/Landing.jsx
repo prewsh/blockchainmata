@@ -105,7 +105,7 @@ const Button = styled.button `
     color: #FFFFFF;
 
     @media only screen and (max-width: 480px){
-        
+        font-size: 15px;
     }
 `;
 

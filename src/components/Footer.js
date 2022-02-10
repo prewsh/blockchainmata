@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import { Image } from './Teachers';
 import social from "../img/social1.png"
 import social2 from "../img/social2.png"
+import {LogoImage} from './nav/Navbar'
+
+
+import bm from "../img/bm.png"
 
 
 const Container = styled.div`
@@ -162,7 +166,7 @@ const Footer = () => {
       <Container>
 
         <Left>
-            <FTitle>Corner Class</FTitle>
+            <FTitle><LogoImage src={bm} /></FTitle>
             <FText>
                 <p>Copyright 2022</p>
                 <p>All right reserved</p>

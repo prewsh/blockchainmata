@@ -30,6 +30,12 @@ line-height: 150%;
 
 text-align: center;
 margin: 0px auto;
+
+
+@media (max-width: 768px) {
+        font-size: 25px;
+    }
+
 `
 
 const SubTitle = styled.p`
@@ -52,6 +58,8 @@ const SubTitle = styled.p`
         @media (max-width: 768px) {
           width: unset;
           height: unset;
+
+          font-size: 18px;
         }
 `
 

@@ -29,6 +29,10 @@ export const Title = styled.h3`
 
 
     color: #000000;
+
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
 `
 
 const SubTitle = styled.p`
@@ -75,7 +79,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     ${'' /* line-height: 150%; */}
     /* or 30px */
 
@@ -153,8 +157,6 @@ const Classes = () => {
             <div className='textArea'>
                 <h3>Testnest Staking</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
-
-                <div className='readmore'><a href='/'>Read More</a></div>
             </div>
         </Card>
 
@@ -165,8 +167,6 @@ const Classes = () => {
             <div className='textArea'>
                 <h3>Online Learning</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
-
-                <div className='readmore'><a href='/'>Read More</a></div>
             </div>
         </Card>
 
@@ -177,8 +177,6 @@ const Classes = () => {
             <div className='textArea'>
                 <h3>Project Promotion</h3>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
-
-                <div className='readmore'><a href='/'>Read More</a></div>
             </div>
         </Card>
         </CardContainer>

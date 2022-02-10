@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
 
+import bm from "./../../img/bm.png"
+
 const Nav = styled.nav`
   ${'' /* margin-top: 10px; */}
   width: 100%;
@@ -15,7 +17,10 @@ const Nav = styled.nav`
 
 
   .logo {
-    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    ${'' /* padding: 150px 0; */}
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -28,11 +33,16 @@ const Nav = styled.nav`
   }
 `
 
+export const LogoImage = styled.img`
+        width: 40%;
+        height: 80%;
+`
+
 const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-      BLOCKCHAIN MATA
+      <LogoImage src={bm} />
       </div>
       <Burger />
     </Nav>
