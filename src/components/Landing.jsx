@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Pics from '../img/la.png'
+import Pics from '../img/undraw-land.svg'
 
 
 const Container = styled.div `
@@ -41,7 +41,7 @@ width: 100%;
     /* or 62px */
 
 
-    color: #FF820E;
+    color: #F8C300;
 
     @media only screen and (max-width: 480px){
         width: 100%;
@@ -93,7 +93,7 @@ const Button = styled.button `
     height: 64px;
     cursor: pointer;
 
-    background: #FF820E;
+    background: #F8C300;
     border-radius: 20px;
     border: none;
 
@@ -120,7 +120,7 @@ const Right = styled.div `
 `;
 
 const Image = styled.img `
-    width: 100%;
+    width: 80%;
 `;
 
 

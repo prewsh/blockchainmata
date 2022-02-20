@@ -6,11 +6,11 @@ import social2 from "../img/social2.png"
 import {LogoImage} from './nav/Navbar'
 
 
-import bm from "../img/bm.png"
+import bm from "../img/bm-black.png"
 
 
 const Container = styled.div`
-    background: #FF820E;
+    background: #f8c300;
     padding: 40px 30px;
     display: flex;
     justify-content: center;

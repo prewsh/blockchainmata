@@ -34,8 +34,8 @@ const Nav = styled.nav`
 `
 
 export const LogoImage = styled.img`
-        width: 40%;
-        height: 80%;
+        width: 20%;
+        height: 30%;
 `
 
 const Navbar = () => {

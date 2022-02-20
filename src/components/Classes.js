@@ -2,13 +2,16 @@ import React from 'react';
 import styled from 'styled-components'
 
 // image imports
-import image3 from "../img/image1.png"
+import image3 from "../img/image3.jpg"
+import testnet from "../img/testnet.jpg"
+import promotion from "../img/promotion.jpg"
 
 
 
 export const Container = styled.div`
-   background: rgba(255, 130, 14, 0.25);
+   ${'' /* background: rgba(255, 130, 14, 0.25); */}
     ${'' /* height: 100%; */}
+    background: rgba(248,195,0, 0.18);
     padding: 30px;
 `
 
@@ -67,13 +70,13 @@ background: #FFFFFF;
 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 
 .textArea{
-    height: 50%;
+    height: 100%;   
     padding: 20px;
 }
 
 .textArea > p{
     ${'' /* width: 254px; */}
-    height: 188px;
+    ${'' /* height: 188px; */}
     margin: 0px auto;
 
     font-family: Montserrat;
@@ -83,7 +86,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     ${'' /* line-height: 150%; */}
     /* or 30px */
 
-    text-align: center;
+    text-align: left;
 
     color: #000000;
 }
@@ -104,7 +107,7 @@ ${'' /* line-height: 150%; */}
 /* identical to box height, or 30px */
 
 
-color: #FF820E; 
+color: #f8c300; 
 }
 
 .readmore > a{
@@ -118,7 +121,7 @@ line-height: 150%;
 /* identical to box height, or 27px */
 
 
-color: #FF820E; 
+color: #f8c300; 
 }
 
 .readmore{
@@ -152,11 +155,12 @@ const Classes = () => {
         <CardContainer>
         <Card>
             <div className='Image' >
-            <Image src={image3} />
+            <Image src={testnet} />
             </div>
             <div className='textArea'>
-                <h3>Testnest Staking</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                <h3>Testnet/Product Testing</h3>
+                    <p>We have a competent team who would be willing to test your products to give feedbacks in rewards for crypto. <br></br>  <br></br>
+                    We also have a community who participate in validator/mining programs from the testnet to the mainnet.</p>
             </div>
         </Card>
 
@@ -165,18 +169,23 @@ const Classes = () => {
             <Image src={image3} />
             </div>
             <div className='textArea'>
-                <h3>Online Learning</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                <h3>Online Learning </h3>
+                    <p>We offer teaching services online to help educate students on everything blockchain and it's technology. <br></br> <br></br>
+                    We also organize events and webinars to this effect.
+                    </p>
             </div>
         </Card>
 
         <Card>
             <div className='Image' >
-            <Image src={image3} />
+            <Image src={promotion} />
             </div>
             <div className='textArea'>
                 <h3>Project Promotion</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                    <p>We have built a strong community driven platform where projects can be promoted and given an audience reach for support. <br></br> <br></br>
+                    We also have a core team who specialize in handing and executing paid promotions for blockchain projects. <br></br> <br></br>
+                    We also offer community management services as well.
+                    </p>
             </div>
         </Card>
         </CardContainer>

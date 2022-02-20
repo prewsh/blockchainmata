@@ -9,8 +9,7 @@ import social from "../img/social1.png"
 import social2 from "../img/social2.png"
 
 const Container = styled.div`
-    background: rgba(255, 130, 14, 0.25);
-    ${'' /* height: 100%; */}
+    background: rgba(248,195,0, 0.18);
     padding: 30px;
 `
 
@@ -78,7 +77,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
     height: 30%;
     ${'' /* padding: 20px; */}
 
-    background: #FF820E;
+    background: #f8c300;
 }
 
 .textArea > p{

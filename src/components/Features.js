@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 
 // image imports
-import image3 from "../img/Frame 1.png"
+import image3 from "../img/event1.png"
+import event2 from "../img/event2.png"
 
 const Card = styled.div`
 margin: 10px auto;
@@ -118,20 +119,20 @@ const Features = () => {
             <div className='Image' >
             <Image src={image3} />
             </div>
-            <div className='textArea'>
+            {/* <div className='textArea'>
                 <h3>Personalizes Classes</h3>
                     <p>We have the best personalizes classes </p>
-            </div>
+            </div> */}
         </Card>
 
         <Card>
             <div className='Image' >
-            <Image src={image3} />
+            <Image src={event2} />
             </div>
-            <div className='textArea'>
+            {/* <div className='textArea'>
                 <h3>Personalizes Classes</h3>
                     <p>We have the best personalizes classes </p>
-            </div>
+            </div> */}
         </Card>
 
         </CardInner1>

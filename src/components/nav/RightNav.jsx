@@ -14,7 +14,7 @@ const Ul = styled.ul`
     font-weight: bold;
     font-size: 17px;
     line-height: 150%;
-    color: #FF820E; 
+    color: #F8C300; 
   }
 
 
