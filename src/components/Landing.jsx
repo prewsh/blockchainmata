@@ -68,8 +68,7 @@ color: #000000;
         width: 100%;
         text-align: justify;
 
-        font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 35px;
     }
 
@@ -114,8 +113,11 @@ const Right = styled.div `
     margin: 10px auto;
 
     @media only screen and (max-width: 480px){
+        display: flex;
         width: 100%;
         margin: 40px auto;
+        justify-content: center;
+        align-items: center;
     }
 `;
 
