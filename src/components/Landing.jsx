@@ -10,7 +10,7 @@ const Container = styled.div `
     align-items: center;
     justify-content: center;
     @media only screen and (max-width: 480px){
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: unset;
     }
 `;
@@ -32,12 +32,13 @@ const Left = styled.div `
 `;
 
 const Title = styled.h1 `
-width: 100%;
+    width: 100%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 130%;
+    text-transform: capitalize;
     /* or 62px */
 
 
@@ -67,7 +68,7 @@ color: #000000;
     @media only screen and (max-width: 480px){
         width: 100%;
         text-align: justify;
-
+            font-weight: 400;
         font-size: 18px;
         line-height: 35px;
     }

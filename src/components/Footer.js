@@ -60,7 +60,7 @@ const FTitle =  styled.h3`
     margin-bottom: 30px;
 
     @media (max-width: 768px) {
-    font-size: 40px;
+    font-size: 25px;
     }
 `
 
@@ -68,7 +68,7 @@ const FText = styled.div`
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 150%;
     /* or 30px */
 
@@ -111,7 +111,6 @@ const Right = styled.div`
 
         font-family: Montserrat;
         font-style: normal;
-        font-weight: bold;
         ${'' /* font-size: 24px; */}
         ${'' /* line-height: 150%; */}
         /* identical to box height, or 36px */
@@ -146,7 +145,7 @@ const FTitler = styled.div`
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 35px;
+font-size: 30px;
 line-height: 150%;
 /* identical to box height, or 60px */
 
@@ -154,7 +153,7 @@ line-height: 150%;
 color: #FFFFFF;
 
 @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 `

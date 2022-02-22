@@ -98,8 +98,9 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 .textArea > h3{
-width: 150px;
+width: 100%;
 height: 30px;
+text-align: center;
 
 margin: 0px auto;
 

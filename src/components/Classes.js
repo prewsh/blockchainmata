@@ -81,8 +81,7 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     ${'' /* line-height: 150%; */}
     /* or 30px */
 
@@ -101,7 +100,7 @@ margin: 0px auto;
 
 font-family: Montserrat;
 font-style: normal;
-font-weight: bold;
+font-weight: bolder;
 font-size: 20px;
 ${'' /* line-height: 150%; */}
 /* identical to box height, or 30px */
