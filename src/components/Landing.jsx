@@ -38,7 +38,7 @@ const Title = styled.h1 `
     font-weight: bold;
     font-size: 48px;
     line-height: 130%;
-    text-transform: capitalize;
+    text-transform: uppercase;
     /* or 62px */
 
 
@@ -52,6 +52,7 @@ const Title = styled.h1 `
         font-size: 36px;
         line-height: 41px;
         font-weight: 900;
+        text-transform: uppercase;
         
     }
 `;
