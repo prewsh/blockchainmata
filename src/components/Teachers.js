@@ -170,7 +170,7 @@ export const Image = styled.img`
 
 const Teachers = () => {
   return (
-      <Container>
+      <Container id='team'>
 
            <Title>Meet the Team</Title>
            <SubTitle>Our Team is a group of professional blockchain developers, traders and designers.</SubTitle>

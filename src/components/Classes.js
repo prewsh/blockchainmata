@@ -148,7 +148,7 @@ const Image = styled.img`
 
 const Classes = () => {
   return (
-      <Container>
+      <Container id='about'>
            <Title>What we offer?</Title>
            <SubTitle></SubTitle>
 

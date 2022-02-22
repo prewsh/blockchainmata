@@ -128,7 +128,7 @@ const Image = styled.img `
 
 export const Landing = () => {
     return (
-        <Container>
+        <Container id='index'>
             <Left>
                 <Title>Everyone is a block on a blockchain.</Title>
                 <Desc>A community built to enlighten

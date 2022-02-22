@@ -16,6 +16,10 @@ const Ul = styled.ul`
     line-height: 150%;
     color: #F8C300; 
   }
+  a{
+    color:  #F8C300;
+    text-decoration: none;
+  }
 
 
   @media (max-width: 768px) {
@@ -29,9 +33,14 @@ const Ul = styled.ul`
     width: 300px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
-    li {
+    padding-left: unset;
+    li{
       color: #000;
     }
+    a{
+    color:  #000;
+    text-decoration: none;
+  }
   }
 `;
 
@@ -40,10 +49,10 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Team</li>
-      <li>Events</li>
+      <li> <a href="#index">Home</a> </li>
+      <li> <a href="#about">About Us</a> </li>
+      <li> <a href="#team">Team</a> </li>
+      <li> <a href="#event">Events</a> </li>
     </Ul>
   )
 }

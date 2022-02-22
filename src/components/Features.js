@@ -15,26 +15,48 @@ import event2 from "../img/event2.png"
 
 
 const Image = styled.img`
-    width: 100%;
-    height: 100%;
+    width: 450px !important;
+    height: 450px;
     z-index: -1;
+
+    @media (max-width: 768px) {
+
+    width: 100% !important;
+    height: 100%;
+    }
 `
+
+const CoverDiv = styled.div `
+
+.item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+`
+
+
 
 
 
 
 const Features = () => {
   return (
-      <Container>
+      <Container id='event'>
         <Title  >Events</Title>
         
         <OwlCarousel className="owl-main  owl-theme" items={1} loop autoplay>
+
+            <CoverDiv>
             <div className='item'>
                     <Image src={event2} /> 
             </div>
+            </CoverDiv>
+            <CoverDiv>
             <div className='item'>
                     <Image src={image3} /> 
             </div>
+            </CoverDiv>
         </OwlCarousel>
 
 
