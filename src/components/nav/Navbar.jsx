@@ -8,7 +8,7 @@ const Nav = styled.nav`
   ${'' /* margin-top: 10px; */}
   width: 100%;
   height: 55px;
-  padding: 10px 40px;
+  padding: 50px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,10 @@ const Nav = styled.nav`
 
     color: #FF820E; 
   }
+
+  @media (max-width: 768px) {
+    padding: 10px 40px
+}
 `
 
 export const LogoImage = styled.img`
