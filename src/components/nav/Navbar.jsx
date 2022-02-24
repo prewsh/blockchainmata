@@ -6,6 +6,7 @@ import bm from "./../../img/bm.png"
 
 const Nav = styled.nav`
   ${'' /* margin-top: 10px; */}
+  box-shadow: 0px 10px 20px rgb(0 0 0 / 25%);
   width: 100%;
   height: 55px;
   padding: 50px 40px;
